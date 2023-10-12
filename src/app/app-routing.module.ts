@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { UpdateEmployeesComponent } from './components/employees/update-employees/update-employees.component';
 
 const routes: Routes = [
   {
@@ -15,7 +16,7 @@ const routes: Routes = [
   },
   {
     path: 'employees',
-    component: DashboardComponent,
+    component: UpdateEmployeesComponent, /* TASK: Create a new component to employees main component */
     pathMatch: "full"
   }
 ];

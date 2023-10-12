@@ -1,20 +1,26 @@
+/* ANGULAR CORE */
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+/* COMPONENTS & MODULES */
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { UpdateEmployeesComponent } from './components/update-employees/update-employees.component';
-import { SearchEmployeesComponent } from './components/employees/search-employees/search-employees.component';
+import { UpdateEmployeesComponent } from './components/employees/update-employees/update-employees.component';
 import { NavComponent } from './common/nav/nav.component';
 import { SidenavComponent } from './common/sidenav/sidenav.component';
+
+/* SERVICES */
+
+/* LIBRARIES */
+
+/* CLASSES, INTERFACES, ENUMS & OTHERS */
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     UpdateEmployeesComponent,
-    SearchEmployeesComponent,
     NavComponent,
     SidenavComponent
   ],
